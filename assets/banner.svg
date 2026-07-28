@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#131a2b"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="deviceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+  <ellipse cx="880" cy="120" rx="260" ry="200" fill="url(#glowCyan)"/>
+  <ellipse cx="1020" cy="260" rx="220" ry="180" fill="url(#glowPurple)"/>
+
+  <g opacity="0.12" stroke="#22d3ee" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="130" x2="1200" y2="130"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="900" cy="190" r="30" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.35"/>
+    <circle cx="900" cy="190" r="55" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.25"/>
+    <circle cx="900" cy="190" r="82" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.15"/>
+  </g>
+
+  <g transform="translate(790,150)">
+    <rect x="0" y="0" width="70" height="90" rx="12" fill="url(#deviceGrad)" stroke="#22d3ee" stroke-width="1.5"/>
+    <circle cx="35" cy="30" r="14" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="35" cy="30" r="5" fill="#22d3ee"/>
+    <rect x="15" y="60" width="40" height="6" rx="3" fill="#22d3ee" opacity="0.6"/>
+    <rect x="15" y="72" width="26" height="6" rx="3" fill="#22d3ee" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(1020,150)">
+    <rect x="0" y="0" width="70" height="90" rx="12" fill="url(#deviceGrad)" stroke="#a855f7" stroke-width="1.5"/>
+    <path d="M15,35 Q35,10 55,35" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M15,55 Q35,80 55,55" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="35" cy="45" r="6" fill="#a855f7"/>
+  </g>
+
+  <g stroke="url(#arrowGrad)" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M868,195 L1012,195"/>
+    <path d="M868,205 L1012,205" opacity="0.5"/>
+    <polygon points="1010,188 1024,195 1010,202" fill="#a855f7"/>
+  </g>
+
+  <g transform="translate(870,255)" fill="url(#waveGrad)">
+    <rect x="0" y="10" width="6" height="20"/>
+    <rect x="12" y="0" width="6" height="30"/>
+    <rect x="24" y="14" width="6" height="16"/>
+    <rect x="36" y="4" width="6" height="26"/>
+    <rect x="48" y="18" width="6" height="12"/>
+    <rect x="60" y="8" width="6" height="22"/>
+    <rect x="72" y="2" width="6" height="28"/>
+    <rect x="84" y="16" width="6" height="14"/>
+    <rect x="96" y="6" width="6" height="24"/>
+    <rect x="108" y="12" width="6" height="18"/>
+  </g>
+
+  <circle cx="150" cy="80" r="3" fill="#22d3ee" opacity="0.6"/>
+  <circle cx="200" cy="290" r="2.5" fill="#a855f7" opacity="0.5"/>
+  <circle cx="100" cy="250" r="2" fill="#22d3ee" opacity="0.4"/>
+
+  <text x="60" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="80" font-weight="700" fill="#f1f5f9" textLength="620" lengthAdjust="spacingAndGlyphs">Sound Switcher</text>
+
+  <text x="60" y="205" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#94a3b8" textLength="640" lengthAdjust="spacingAndGlyphs">No more manually switching audio devices — just run and go</text>
+
+  <g opacity="0.5" stroke="#22d3ee" stroke-width="2" stroke-linecap="round">
+    <line x1="62" y1="235" x2="150" y2="235"/>
+  </g>
+</svg>
